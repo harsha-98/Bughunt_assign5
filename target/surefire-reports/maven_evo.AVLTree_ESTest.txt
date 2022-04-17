@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: maven_evo.AVLTree_ESTest
+-------------------------------------------------------------------------------
+Tests run: 31, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 1.217 s <<< FAILURE! - in maven_evo.AVLTree_ESTest
+test14(maven_evo.AVLTree_ESTest)  Time elapsed: 0.024 s  <<< ERROR!
+java.lang.StackOverflowError
+
