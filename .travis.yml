@@ -3,7 +3,6 @@ dist: trusty
 
 sudo: false
 script: 
-
 mvn evosuite:generate
 mvn cobertura:cobertura
 
