@@ -16,7 +16,11 @@
     <version>1.0.6</version>
     <scope>test</scope>
 </dependency>
-
+<dependency>
+<groupId>org.jacoco</groupId>
+<artifactId>org.jacoco.agent</artifactId>
+<version>0.8.7</version>
+</dependency>
 </dependencies>
 <build>
 <plugins>
