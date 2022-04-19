@@ -4,7 +4,7 @@ dist: trusty
 sudo: false
 script: 
 mvn evosuite:generate
-mvn mvn evosuite:export
+mvn evosuite:export
 mvn test
 
 after_success:
