@@ -4,7 +4,8 @@ dist: trusty
 sudo: false
 script: 
 mvn evosuite:generate
-mvn cobertura:cobertura
+mvn mvn evosuite:export
+mvn test
 
 after_success:
   - bash <(curl -s https://codecov.io/bash)
