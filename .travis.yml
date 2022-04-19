@@ -2,7 +2,10 @@ language: java
 dist: trusty
 
 sudo: false
-script: mvn test
+script: 
+mvn evosuite:generate
+mvn evosuite:export
+mvn test
 
 after_success:
   - bash <(curl -s https://codecov.io/bash)
